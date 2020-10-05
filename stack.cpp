@@ -16,13 +16,7 @@ public:
             arr [i] =0;
     }
     
-    bool isempty(){
-        if (top == -1){
-            return true;
-        }
-        else {
-          return false;    
-        }
+    
     }
     bool isfull(){
         if (top == 9){
